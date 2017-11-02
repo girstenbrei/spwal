@@ -24,4 +24,5 @@ sample-*.pdf
 *.tgz
 *.zip
 *.rpi
+*.pdf
 *~
