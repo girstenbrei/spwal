@@ -26,4 +26,5 @@ sample-*.pdf
 *.rpi
 *.pdf
 *.gz
+*.bib.bak
 *~
