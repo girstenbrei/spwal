@@ -1,0 +1,109 @@
+\documentclass[acmlarge]{acmart}
+
+\usepackage{booktabs} % For formal tables
+\usepackage[utf8]{inputenc}
+
+
+\usepackage[ruled]{algorithm2e} % For algorithms
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
+
+% Metadata Information
+\acmJournal{PACMHCI}
+\acmVolume{9}
+\acmNumber{4}
+\acmArticle{39}
+\acmYear{2010}
+\acmMonth{3}
+\acmArticleSeq{11}
+
+%\acmBadgeR[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
+%\acmBadgeL[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
+
+
+% Copyright
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+% DOI
+\acmDOI{0000001.0000001}
+
+% Paper history
+\received{February 2007}
+\received{March 2009}
+\received[accepted]{June 2009}
+
+
+% Document starts
+\begin{document}
+% Title portion
+\title{A Multifrequency MAC Specially Designed for Wireless Sensor
+  Network Applications} 
+\titlenote{We can add a note to the title}
+
+\input{../Authors}
+
+\input{Abstract}
+
+\input{../CCSXML}
+
+\keywords{Disaster; NINA; KATWARN; KRISE; Anforderungen; Kriterien; Disasteranalyse; Warnsystem}
+
+% DO NOT use this command unless you want to change
+% the default behavior
+% \authorsaddresses{Authors' addresses: G.~Zhou, Computer Science
+%   Department, College of William and Mary, 104 Jameson Rd,
+%   Williamsburg, PA 23185, US, \path{gzhou@wm.edu}; V.~B\'eranger,
+%   Inria Paris-Rocquencourt, Rocquencourt, France; A.~Patel, Rajiv
+%   Gandhi University, Rono-Hills, Doimukh, Arunachal Pradesh, India;
+%   H.~Chan, Tsinghua University, 30 Shuangqing Rd, Haidian Qu, Beijing
+%   Shi, China; T.~Yan, Eaton Innovation Center, Prague, Czech Republic;
+%   T.~He, C.~Huang, J.~A.~Stankovic University of Virginia, School of
+%   Engineering Charlottesville, VA 22903, USA; T. F. Abdelzaher,
+%   (Current address) NASA Ames Research Center, Moffett Field,
+%   California 94035.}
+
+\maketitle
+
+% The default list of authors is too long for headers.
+\renewcommand{\shortauthors}{G. Zhou et al.}
+
+\input{Introduction}
+\input{Related_Work}
+\input{Methodology}
+\input{Research_description}
+\input{Evaluation}
+\input{Achievements}
+\input{Conclusion}
+\input{Future_Work}
+\input{Deviation_from_Proposal}
+
+\begin{acks}
+
+%The authors would like to thank Dr. Maura Turolla of Telecom
+%Italia for providing specifications about the application scenario.
+%
+%The work is supported by the \grantsponsor{GS501100001809}{National
+%	Natural Science Foundation of
+%	China}{http://dx.doi.org/10.13039/501100001809} under Grant
+%No.:~\grantnum{GS501100001809}{61273304\_a}
+%and~\grantnum[http://www.nnsf.cn/youngscientists]{GS501100001809}{Young
+%	Scientists' Support Program}.
+
+
+\end{acks}
+
+% Bibliography
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{disaster-final}
+
+\end{document}
